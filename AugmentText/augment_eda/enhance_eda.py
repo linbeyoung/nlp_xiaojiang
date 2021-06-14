@@ -240,13 +240,13 @@ def eda(sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.1, p_rd=0.1, num_aug=9,
 
 
 if __name__ == "__main__":
-    des_word2vec = get_synonyms_from_word2vec(word2vec_model, '汾', topn=20, score_top=0.75)
-    print(des_word2vec)
-    des = get_syn_by_synonyms("同义词")
-    print(des)
-    syn = eda(sentence="rsh喜欢大漠帝国吗", alpha_sr=0.2, alpha_ri=0.2, alpha_rs=0.2, p_rd=0.2, num_aug=10, key_words=key_word_list)
-    syn_s = sentence_replace_whitespace(syn)
-    print(syn)
+    # des_word2vec = get_synonyms_from_word2vec(word2vec_model, '汾', topn=20, score_top=0.75)
+    # print(des_word2vec)
+    # des = get_syn_by_synonyms("同义词")
+    # print(des)
+    # syn = eda(sentence="rsh喜欢大漠帝国吗", alpha_sr=0.2, alpha_ri=0.2, alpha_rs=0.2, p_rd=0.2, num_aug=10, key_words=key_word_list)
+    # syn_s = sentence_replace_whitespace(syn)
+    # print(syn)
     while True:
         print('输入: ')
         sen = input()
